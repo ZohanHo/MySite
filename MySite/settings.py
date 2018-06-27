@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 
-STATICFILES_DIRS = [           # Прописал для пожкдючения папки static которая находится  корнеом каталоге
+STATICFILES_DIRS = [           # Прописал для подключения папки static которая находится  корнеом каталоге
     os.path.join(BASE_DIR, "static"),
     '/static/',
 ]
